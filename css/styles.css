@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #fa9a57;
+}
+body .contenedor {
+  margin-top: 100px;
+  height: 600px;
+  overflow-y: scroll;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+body .contenedor h2 {
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+}
+body .contenedor .buscador {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .contenedor .buscador input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #148df8;
+  outline: none;
+}
+body .contenedor .buscador button {
+  background-color: #148df8;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+}
+body .contenedor .buscador button:hover {
+  background-color: #2a75b7;
+}
+body .contenedor .lista {
+  font-size: 20px;
+}
+body .contenedor .lista .lista-tarea .text {
+  text-decoration: line-through;
+}
+body .contenedor .lista .lista-tarea li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 100%;
+}
+body .contenedor .lista .lista-tarea li button {
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(226, 96, 96);
+}
+body .contenedor .lista .lista-tarea li button:hover {
+  background-color: rgb(226, 96, 96);
+  color: #fff;
+}
+body .contenedor .lista .lista-tarea li .check {
+  color: green;
+  margin-left: 20px;
+}
+body .contenedor .lista .lista-tarea li .check:hover {
+  background-color: green;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */
